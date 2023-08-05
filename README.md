@@ -9,7 +9,7 @@ In order to obtain a human-generated solution for issue resolution, which I coul
 ![Screenshot](pictures/human_solution.png)\
 At this point, I had compiled a list of all the files that had undergone changes, along with the solution provided by a human.
 ### Prompt
-For ChatGPT, I used ChatGPT4 API to ensure the latest technology and the highest token limit possible. For the prompt that goes into ChatGPT, each contains:
+For ChatGPT, I used **ChatGPT4 API** to ensure the latest technology and the highest token limit possible. For the prompt that goes into ChatGPT, each contains:
 * **Issue's content**
 * **List of the files that need to be fixed**
 * **Each code file content**
