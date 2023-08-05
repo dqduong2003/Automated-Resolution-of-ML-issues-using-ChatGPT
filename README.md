@@ -4,17 +4,17 @@ _Internship at Applied Artificial Intelligence Institute_
 ## Method
 ### Dataset
 The dataset contains 140 GitHub issues relating to machine learning (ML) code. Each input contains the project's name, issue URL, issue number and the PR that fixed the issue.
-### Acquire Human's Solution
-To get the human solution to fix the issue so I could compare ChatGPT's performance with, I looked at the commit merged into the main branch by the owner, which means it has been verified. I then got the diff between this commit and and the last one. This way, I will the which lines of codes were changed and in which files.
-![Screenshot](pictures/human_solution.png)
-Now, I had a list of all the files changed and the human's solution
+### Obtain Human's Solution
+In order to obtain a human-generated solution for issue resolution, which I could subsequently compare with ChatGPT's performance, I examined the commit that the repository owner had merged into the main branch. This commit's verification ensured its accuracy. Subsequently, I extracted the differences between this specific commit and the previous one. This approach enabled me to precisely identify the altered lines of code and the files in which these changes were made.\
+![Screenshot](pictures/human_solution.png)\
+At this point, I had compiled a list of all the files that had undergone changes, along with the solution provided by a human.
 ### Prompt
-For ChatGPT, I used ChatGPT4 API to ensure the latest technology and highest token limit possible. For the prompt that goes into ChatGPT, each contains:
+For ChatGPT, I used ChatGPT4 API to ensure the latest technology and the highest token limit possible. For the prompt that goes into ChatGPT, each contains:
 * Issue's content
 * List of the files that need to be fixed
 * Each code file content
 * Return the solution in diff format
-Because of the limited duration of this internship, I provided ChatGPT with only the code files that needed to be changed so that I can save time and it didn't need to go through every code file in the repository.
+Due to the relatively short duration of the internship, I opted to streamline the process by exclusively supplying ChatGPT with the specific code files requiring modification. This approach aimed to save time by bypassing the need for ChatGPT to analyze every single code file within the repository.
 ![Screenshot](pictures/prompt.png)
 
 ## Evaluation Metrics
