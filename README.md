@@ -3,7 +3,7 @@ _Internship at Applied Artificial Intelligence Institute_
 
 ## A. Method
 ### Dataset
-The dataset contains 140 GitHub issues relating to machine learning (ML) code. Each input contains the project's name, issue URL, issue number and the PR that fixed the issue.
+The dataset contains 140 GitHub issues relating to machine learning (ML) code. Each entry includes the project's name, the URL of the corresponding issue, the issue number, and the associated pull request (PR) responsible for resolving the issue.
 ### Obtain Human's Solution
 In order to obtain a human-generated solution for issue resolution, which I could subsequently compare with ChatGPT's performance, I examined the commit that the repository owner had merged into the main branch. This commit's verification ensured its accuracy. Subsequently, I extracted the differences between this specific commit and the previous one. This approach enabled me to precisely identify the altered lines of code and the files in which these changes were made.\
 ![Screenshot](pictures/human_solution.png)\
