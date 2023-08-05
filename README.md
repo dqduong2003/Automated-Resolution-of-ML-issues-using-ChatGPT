@@ -24,6 +24,7 @@ To evaluate how well ChatGPT performed in resolving these issues, I divided it i
 * **Accuracy:** 1-5
 * **Clarity of Explanation**: 1-5
 ### Comparison with Human's answer
+![Screenshot](pictures/compare.png)
 
 ## Results
 ![Screenshot](pictures/result1.png)
