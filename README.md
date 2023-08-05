@@ -36,5 +36,5 @@ To evaluate how well ChatGPT performed in resolving these issues, I divided it i
 * ChatGPT shows potential in fixing ML code
 * May lack the contextual understanding of human experts who possess deep expertise and domain knowledge, enabling them to understand the nuances and intricacies of machine learning code
 * Valuable as a complementary tool to support human experts
-* Can assist in generating initial solutions, providing alternative approaches, or offering insights
-→ Human involvement remains essential to provide expertise, domain knowledge, and critical thinking in complex scenarios.
+* Can assist in generating initial solutions, providing alternative approaches, or offering insights\
+→ _Human involvement remains essential to provide expertise, domain knowledge, and critical thinking in complex scenarios._
