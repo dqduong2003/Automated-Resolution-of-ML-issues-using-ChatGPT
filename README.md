@@ -10,11 +10,11 @@ In order to obtain a human-generated solution for issue resolution, which I coul
 At this point, I had compiled a list of all the files that had undergone changes, along with the solution provided by a human.
 ### Prompt
 For ChatGPT, I used ChatGPT4 API to ensure the latest technology and the highest token limit possible. For the prompt that goes into ChatGPT, each contains:
-* Issue's content
-* List of the files that need to be fixed
-* Each code file content
-* Return the solution in diff format
-Due to the relatively short duration of the internship, I opted to streamline the process by exclusively supplying ChatGPT with the specific code files requiring modification. This approach aimed to save time by bypassing the need for ChatGPT to analyze every single code file within the repository.
+* **Issue's content**
+* **List of the files that need to be fixed**
+* **Each code file content**
+* **Return the solution in diff format**\
+Due to the relatively short duration of the internship, I opted to streamline the process by exclusively supplying ChatGPT with the specific code files requiring modification. This approach aimed to save time by bypassing the need for ChatGPT to analyze every single code file within the repository.\
 ![Screenshot](pictures/prompt.png)
 
 ## B. Evaluation Metrics
